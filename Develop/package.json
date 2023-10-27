@@ -1,14 +1,15 @@
 {
-  "name": "note-taker",
+  "name": "note-taker-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A note-taking application",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.17.1", 
+    "uuid": "^3.0.0"
+  },
+  "author": "dasa",
+  "license": "MIT"
 }
